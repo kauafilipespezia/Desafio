@@ -1,0 +1,467 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.retangulo2 {
+    background-color: rgb(255, 64, 105);
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    position: relative;
+    z-index: 1001;
+}
+
+.retangulo {
+    background-color: white;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    padding: 10px 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.logo {
+    height: 60px;
+    margin-left: 2%;
+}
+
+.cidade {
+    width: 100%;
+    height: calc(90vh - 120px);
+    object-fit: cover;
+    opacity: 0.9;
+}
+
+.detalhe {
+    position: relative;
+    top: 10px;
+    left: 55px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.detalhes {
+    text-decoration: none;
+    color: black;
+}
+
+.detalhes:hover {
+    color: #ec5c24;
+}
+
+.botao {
+    height: 50px;
+    width: 300px;
+    position: absolute;
+    top: 65%;
+    left: 20%;
+    transform: translateX(-50%);
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: background-color 0.5s ease
+}
+
+.botao:hover {
+    background-color: #000000;
+}
+
+
+.botao2 {
+    position: relative;
+    top: -20px;
+    left: 80px;
+    height: 50px;
+    width: 300px;
+    background-color: #ec5c24;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.botao2:hover {
+    transform: scale(1.1);
+}
+
+.botao3 {
+    height: 50px;
+    width: 300px;
+    background-color: #ec5c24;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 19px;
+    transition: background-color 0.5s ease
+}
+
+.botao3:hover {
+    background-color: #000000;
+}
+
+.solucoes {
+    font-size: 5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.solucoes2 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -10px;
+}
+
+.segunda-parte {
+    padding-left: 90px;
+}
+
+.textinho {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translateX(-50%);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.textinho2 {
+    position: absolute;
+    top: 54%;
+    left: 20%;
+    transform: translateX(-50%);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.patrocinadores img {
+    width: 90vh;
+    padding-top: 30px;
+    position: relative;
+    left: 25%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+.patrocinadores img:hover {
+    opacity: 1;
+}
+
+.container-cursos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    margin-left: 250px;
+    gap: 40px;
+}
+
+
+.quadrado {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 35px;
+    text-align: center;
+    width: 400px;
+    max-width: 600px;
+    box-shadow: 0 4px 12px rgba(56, 56, 56, 0.658);
+    margin-top: -200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.escrita-curso {
+    font-size: 28px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.quadrado p {
+    font-size: 18px;
+    color: #838383;
+    margin-top: 0;
+}
+
+.estante {
+    height: 150px;
+    position: relative;
+    margin-top: -460px;
+    left: 350px;
+    transition: transform 0.4s ease;
+}
+
+.estante:hover {
+    transform: scale(1.2);
+}
+
+.oculos {
+    position: relative;
+    top: -220px;
+    height: 150px;
+    left: 380px;
+    transition: transform 0.4s ease;
+}
+
+.oculos:hover {
+    transform: scale(1.2);
+}
+
+.gifs {
+    height: 200px;
+}
+
+.container-informacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+.container-material {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.material {
+    background-color: #ec5c24;
+    height: 450px;
+    width: 160vh;
+    display: flex;
+    margin-top: 150px;
+    border-radius: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.ebook {
+    margin-left: 8%;
+}
+
+.titulo-material {
+    font-size: 60px;
+    white-space: nowrap;
+    margin-left: 10%;
+    margin-top: 60px;
+}
+
+.texto-centro {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 20px;
+}
+
+.texto-material {
+    margin-left: 10%;
+    margin-top: -20px;
+    white-space: nowrap;
+    letter-spacing: 1px;
+}
+
+.botao-ebook {
+    color: #ec5c24;
+    border: none;
+    height: 50px;
+    width: 300px;
+    border-radius: 25px;
+    font-size: 2vh;
+    margin-left: 50px;
+    cursor: pointer;
+    transition: color 0.5s ease;
+    transition: background-color 0.5s ease
+}
+
+.botao-ebook:hover {
+    background-color: rgb(55, 206, 55);
+    color: #000000;
+}
+
+.curso-titulo {
+    font-size: 5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container-pratileira {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    color: #ec5c24;
+}
+
+.container-pratileira2 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: auto;
+
+}
+
+.animacao {
+    transition: transform 0.4s ease;
+    box-shadow: 0 4px 12px rgba(163, 163, 163, 0.658);
+
+}
+
+.animacao:hover {
+    transform: scale(1.1);
+}
+
+.container-agendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.agendar {
+    background-color: #222;
+    height: 55vh;
+    width: 80%;
+    border-radius: 25px;
+
+}
+
+input {
+    background-color: white;
+    width: 115vh;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    padding: 0 30px;
+    font-size: 17px;
+}
+
+.container-input {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.enviar {
+    background-color: #ec5c24;
+    border: none;
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 2vh;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+.preto {
+    background-color: #000000;
+    height: 50vh;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 550px;
+}
+
+.escrita-rodape {
+    max-width: 80%;
+    margin-left: -500px;
+}
+
+
+.numero {
+    color: rgb(255, 255, 255);
+}
+
+.icons {
+    height: 30px;
+    padding: 10px;
+    transition: transform 0.4s ease;
+}
+
+.icons:hover {
+    transform: scale(1.2);
+}
+
+.opcoes a {
+    color: white;       
+    text-decoration: none; 
+    font-size: 17px;
+}
+
+.opcoes a:hover {
+    color: #ec5c24;   
+}
+
+.inicio {
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: -500px;
+    font-size: 15px;
+}
+
+.inscrevase{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+
+.rodape-inferior hr {
+    border: 0;
+    border-top: 1px solid #555; 
+    margin: 0 0 10px 0; 
+    margin-top: 200PX;
+}
